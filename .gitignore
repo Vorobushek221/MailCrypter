@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 /UnitTestProject1/MailSenderTest.cs
 /UnitTestProject1/MailSenderTest.cs
+/UnitTestProject1/MailTransporterTest.cs

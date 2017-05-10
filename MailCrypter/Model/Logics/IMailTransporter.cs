@@ -2,7 +2,7 @@
 
 namespace MailCrypter.Model.Logics
 {
-    public interface IMailSender
+    public interface IMailTransporter
     {
         bool SendMessage(Message message);
 

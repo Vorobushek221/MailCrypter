@@ -9,6 +9,19 @@ namespace MailCrypter.Model.Entitties
 {
     public class Message
     {
+        public Message(AE.Net.Mail.MailMessage mailMessage)
+        {
+            DestinationEmail = mailMessage.To.FirstOrDefault().Address;
+            SenderEmail = mailMessage.From.Address;
+            Subject = mailMessage.Subject;
+            Text = mailMessage.Body;
+            ReceiveTime = mailMessage.Date;
+            SendTime = null;
+        }
+
+        public Message()
+        {}
+
         public string DestinationEmail { get; set; }
 
         public string SenderEmail { get; set; }
@@ -21,6 +34,10 @@ namespace MailCrypter.Model.Entitties
 
         public string Text { get; set; }
 
+        /// <summary>
+        /// Method converts MailCrypter.Model.Entities.Message to System.Net.Mail.MailMessage.
+        /// </summary>
+        /// <returns>System.Net.Mail.MailMessage entity</returns>
         public MailMessage ToMailMessage()
         {
             return new MailMessage(this.SenderEmail,
@@ -28,6 +45,5 @@ namespace MailCrypter.Model.Entitties
                                 this.Subject,
                                 this.Text);
         }
-        
     }
 }
