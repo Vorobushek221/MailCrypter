@@ -1,4 +1,5 @@
 ﻿using MailCrypter.Model.Entitties;
+using System.Collections.Generic;
 
 namespace MailCrypter.Model.Logics
 {
@@ -6,5 +7,6 @@ namespace MailCrypter.Model.Logics
     {
         bool SendMessage(Message message);
 
+        ICollection<Message> ReceiveMessages(int returCount);
     }
 }

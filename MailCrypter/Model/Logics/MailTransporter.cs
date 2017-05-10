@@ -64,7 +64,7 @@ namespace MailCrypter.Model.Logics
             }
         }
 
-        public List<Message> ReceiveMessages(int returnCount) //TODO needs refectoring try-catch
+        public ICollection<Message> ReceiveMessages(int returnCount) //TODO needs refectoring try-catch
         {
             imapClient.SelectMailbox("INBOX");
             var messageTotalAmount = imapClient.GetMessageCount();
