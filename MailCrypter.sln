@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailCrypter", "MailCrypter\MailCrypter.csproj", "{56F71300-9ACE-4B85-A523-73629436DB2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTestProject1\UnitTests.csproj", "{C53FFF98-9835-4B24-8700-DD47F8B31FBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{610E9141-2A76-49BD-9C0B-132F373C0FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{56F71300-9ACE-4B85-A523-73629436DB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F71300-9ACE-4B85-A523-73629436DB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F71300-9ACE-4B85-A523-73629436DB2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C53FFF98-9835-4B24-8700-DD47F8B31FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C53FFF98-9835-4B24-8700-DD47F8B31FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C53FFF98-9835-4B24-8700-DD47F8B31FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C53FFF98-9835-4B24-8700-DD47F8B31FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610E9141-2A76-49BD-9C0B-132F373C0FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610E9141-2A76-49BD-9C0B-132F373C0FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610E9141-2A76-49BD-9C0B-132F373C0FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610E9141-2A76-49BD-9C0B-132F373C0FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
